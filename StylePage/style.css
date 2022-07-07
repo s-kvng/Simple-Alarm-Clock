@@ -7,7 +7,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body, .wrapper{
+body, .wrapper, .content{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,7 +18,7 @@ body{
     background: #4a98f7;
 }
 .wrapper{
-   width: 470px;
+   width: 440px;
    background: #fff; 
    border-radius: 10px;
    flex-direction: column;
@@ -35,9 +35,13 @@ body{
     margin: 30px 0;
 }
 
-.content{
+.wrapper .content{
     width: 100%;
-    background: red;
+    justify-content: space-between;
+    /* flex-direction: row; */
     
 }
 
+.content .column{
+    
+}
