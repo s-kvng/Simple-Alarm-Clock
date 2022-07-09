@@ -15,7 +15,7 @@ body, .wrapper, .content{
 
 body{
     min-height: 100vh;
-    background: #4a98f7;
+    background: #030303;
 }
 .wrapper{
    width: 440px;
@@ -42,6 +42,11 @@ body{
     
 }
 
+.wrapper .content.disable{
+    opacity: 0.6;
+    pointer-events: none;
+}
+
 .content .column{
     border-radius: 5px;
     padding: 0 10px;
@@ -63,6 +68,6 @@ body{
     margin-top: 17px;
     height: 3.5rem;
     border: 1px solid #999;
-    background: #4a98f7;
+    background: #f7564a;
     font-size: 17px;
 }
